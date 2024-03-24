@@ -1,0 +1,66 @@
+/* Universal Selector*/
+* {
+    color: brown;
+}
+
+/* This is an example of element selector. */
+p
+ {
+    color: blue;
+}
+
+/* Class Selector */
+.parag1 {
+    color:chocolate;
+}
+
+/* ID Selector*/
+#parag2 {
+    color:orange;
+}
+
+/* Attribute selector */
+/* targgeting any element that has an [href attibute*/
+[href] {
+    color: rgb(119, 97, 198);
+}
+
+/* targtting an <a> with an href attribute*/
+a[href] {
+    color: darkorchid;
+}
+
+/* targetting element with an href attribute value that is exactly "www.example1.com"*/
+a[href="www.example1.com"] {
+    color: deeppink;
+}
+
+/* Grouping Selector */
+/* h2,h3 {
+    font-size:20px;
+    background-color: yellow;
+} */
+
+.heading2, #heading3, h4{
+    font-size: 20px;
+    background-color:yellow;
+}
+
+/* Pseud-classes */
+h2:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+/* Pseudo-elements */
+h3::first-letter{
+    color: blue
+}
+
+h3::before{
+    content:"Placed before h3 "
+}
+
+h3::after{
+    content:" Placed after h3 "
+}
