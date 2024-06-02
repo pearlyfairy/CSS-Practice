@@ -20,12 +20,12 @@ p
 }
 
 /* Attribute selector */
-/* targgeting any element that has an [href attibute*/
+/* targetting any element that has an [href attibute*/
 [href] {
     color: rgb(119, 97, 198);
 }
 
-/* targtting an <a> with an href attribute*/
+/* targetting an <a> with an href attribute*/
 a[href] {
     color: darkorchid;
 }
@@ -62,5 +62,5 @@ h3::before{
 }
 
 h3::after{
-    content:" Placed after h3 "
+    content:"Placed after h3 "
 }
